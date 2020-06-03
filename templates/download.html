@@ -1,0 +1,10 @@
+{%extends 'index.html'%}
+
+{%block head%}
+<title>Download Page</title>
+{%endblock%}
+
+{%block body%}
+<a href={{url_for("download")}} download="mergedFile.pdf" >Click to download the file</a>
+
+{%endblock%}
