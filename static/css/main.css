@@ -1,0 +1,22 @@
+h3{
+  color: Grey;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.form_pdf{
+  padding: 30 px;
+  margin: 20 px;
+  align-content: center;
+  height: 400 px;
+}
+.form_image{
+  padding: 30 px;
+  margin: 20 px;
+  align-content: center;
+  height: 400 px;
+}
+form{
+  text-align: center;
+}

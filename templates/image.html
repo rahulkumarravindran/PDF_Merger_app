@@ -7,9 +7,11 @@
 
 {%block body%}
 <h3>Select one or multiple image files to convert into PDF:</h3>
-<form method=post enctype="multipart/form-data">
-  <label for="myimage">Select files:</label>
-  <input type="file" id="myimage" name="myimage" multiple="true"><br><br>
-  <input type="submit" value="add">
-</form>
+<div class= "form_image">
+  <form method=post enctype="multipart/form-data">
+    <label for="myimage">Select files:</label>
+    <input type="file" id="myimage" name="myimage" multiple="true"><br><br>
+    <input type="submit" value="add">
+  </form>
+</div>
 {%endblock%}
