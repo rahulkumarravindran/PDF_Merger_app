@@ -1,3 +1,23 @@
+.main_navi ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.main_navi li{
+  float: left;
+}
+.main_navi li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.main_navi li a:hover{
+  background-color: #111;
+}
 h3{
   color: Grey;
   text-align: center;
@@ -6,17 +26,14 @@ p{
   text-align: center;
 }
 .form_pdf{
-  padding: 30 px;
-  margin: 20 px;
-  align-content: center;
-  height: 400 px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid grey;
+  padding: 50px;
 }
 .form_image{
-  padding: 30 px;
-  margin: 20 px;
-  align-content: center;
-  height: 400 px;
-}
-form{
-  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid grey;
+  padding: 50px;
 }
