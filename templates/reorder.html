@@ -1,0 +1,20 @@
+{%extends 'index.html'%}
+
+{%block head%}
+<title>Reorder files</title>
+{%endblock%}
+
+{%block body%}
+<div class="form_pdf">
+
+
+<form action="/reorder/{{starttime}}" class="reorder_files"  method=post enctype="multipart/form-data">
+  {%for i in range(len)%}
+    <input type="text" id="{{i}}" name="txt">
+    <label for="{{i}}">{{files_user_order[i]}}</label>
+    <br>
+  {%endfor%}
+  <input type="submit" value="reorder">
+</form>
+</div>
+{%endblock%}
