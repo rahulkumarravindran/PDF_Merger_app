@@ -8,6 +8,7 @@
   </head>
   <body>
     <header><nav class="main_navi">
+      <div class='Logo'>ThePdfMerger</div>
       <ul>
         <li><a href="{{url_for('home')}}">Home</a></li>
         <li><a href="{{url_for('pdfmerge')}}">Merge multiple PDF files</a></li>
@@ -16,9 +17,11 @@
       </ul>
     </nav>
     </header>
+    <br>
+    <div class='form-body'>
     {%block body%}
     {%endblock%}
-
+    </div>
 
 
   </body>

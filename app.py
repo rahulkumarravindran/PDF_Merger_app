@@ -34,7 +34,7 @@ def allowed_file_format(filename):
         return False
 
 def allowed_image_format(filename):
-    if '.jpg' in filename.lower() or '.png' in filename.lower():
+    if '.jpg' in filename.lower() or '.png' in filename.lower() or '.jpeg' in filename.lower():
         return True
     else:
         return False
